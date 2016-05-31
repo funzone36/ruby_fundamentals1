@@ -13,5 +13,15 @@ number = 10
 string = "Jason"
 puts string + number.to_s
 
-#Try outputting the result of 45628 multiplied by 7839 in a sentence by using string interpolation.
-#What's the value of the expression (10 < 20 && 30 < 20) || !(10 == 11)? Try figuring it out on your own before typing it in.
+#Q: Try outputting the result of 45628 multiplied by 7839 in a sentence by using string interpolation.
+
+number1 = 45628
+number2 = 7839
+number3 = number1 * number2
+
+puts "the result of #{number1} multiplied by #{number2} is #{number3}."
+
+#Q: What's the value of the expression (10 < 20 && 30 < 20) || !(10 == 11)? Try figuring it out on your own before typing it in.
+
+#A: The value is true. True and False equal to False. False or True is True.
+puts (10 < 20 && 30 < 20) || !(10 == 11)
